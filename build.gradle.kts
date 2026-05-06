@@ -16,8 +16,8 @@ repositories {
 dependencies {
     testImplementation("org.junit.jupiter", "junit-jupiter", "5.14.3")
     testImplementation("org.assertj", "assertj-core", "3.27.7")
+    testImplementation("io.kotest:kotest-runner-junit6:6.1.11")
 }
-
 tasks {
     test {
         useJUnitPlatform()
